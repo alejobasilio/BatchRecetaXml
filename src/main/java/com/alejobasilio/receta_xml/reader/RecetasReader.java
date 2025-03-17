@@ -12,7 +12,13 @@ import org.springframework.batch.item.ItemStreamException;
 import org.springframework.batch.item.support.AbstractItemStreamItemReader;
 
 import com.alejobasilio.receta_xml.model.Receta;
-
+/**
+ * Clase que se utiliza para leer un archivo Excel y convertir sus filas en objetos Receta.
+ * 
+ * @author Alejo
+ * @version 1.0
+ * @since 1.0
+ */
 public class RecetasReader extends AbstractItemStreamItemReader<Receta> {
 
     private XSSFWorkbook workbook;

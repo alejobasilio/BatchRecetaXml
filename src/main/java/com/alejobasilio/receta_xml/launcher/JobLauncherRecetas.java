@@ -7,6 +7,11 @@ import org.springframework.batch.core.JobParameters;
 import org.springframework.batch.core.JobParametersBuilder;
 import org.springframework.batch.core.launch.JobLauncher;
 
+/**
+ * Clase que se utiliza para lanzar los trabajos de forma secuencial. 
+ * Esta clase recibe un JobLauncher y dos Jobs (leerIngredientesJob y recestasXmlJob) 
+ * y los ejecuta con parámetros específicos.
+ */
 public class JobLauncherRecetas {
 
 	private JobLauncher jobLauncher;

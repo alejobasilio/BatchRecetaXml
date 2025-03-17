@@ -12,6 +12,13 @@ import org.springframework.core.io.ClassPathResource;
 
 import com.alejobasilio.receta_xml.model.Ingrediente;
 
+/**
+ * Clase que implementa la interfaz Tasklet para leer los ingredientes desde un archivo CSV.
+ * 
+ * @author Alejo
+ * @version 1.0
+ * @since 1.0
+ */
 public class LeerIngredientesTasklet implements Tasklet{
 
 	private final List<Ingrediente> ingredientes;

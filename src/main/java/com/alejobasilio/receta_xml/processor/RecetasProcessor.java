@@ -9,6 +9,13 @@ import org.springframework.stereotype.Component;
 import com.alejobasilio.receta_xml.model.Ingrediente;
 import com.alejobasilio.receta_xml.model.Receta;
 
+/**
+ * Clase que procesa las recetas y verifica si hay suficientes ingredientes para prepararlas.
+ * 
+ * @author Alejo
+ * @version 1.0
+ * @since 1.0
+ */
 @Component
 public class RecetasProcessor implements ItemProcessor<Receta,Receta>{
 
