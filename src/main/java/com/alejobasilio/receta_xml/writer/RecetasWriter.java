@@ -13,6 +13,13 @@ import org.springframework.stereotype.Component;
 
 import com.alejobasilio.receta_xml.model.Receta;
 
+/**
+ * Clase que se utiliza para escribir las recetas en un archivo XML.
+ * 
+ * @author Alejo
+ * @version 1.0
+ * @since 1.0
+ */
 @Component
 public class RecetasWriter implements ItemWriter<Receta>, ItemStream  {
 
